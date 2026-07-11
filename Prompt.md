@@ -1,0 +1,1 @@
+Act like a Senior web developer . I need you to help me to creat a section to build a corporate/event landing page. I alrerdy add the nav bar , a Hero_section, Our Speakers details section, our pricing card list section. i want you to suggest me one last section to add after it . And after that i will add my last section footer .
