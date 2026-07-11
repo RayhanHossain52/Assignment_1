@@ -117,3 +117,32 @@ img{
     font-size: 25px ;
 }
 
+
+
+/* Meet the Speakers Section*/
+.speakers_parent{
+    margin-top: 20px;
+}
+.speakers_parent h1{
+    
+    text-align: center;
+    font-size: 50px ;
+    padding: 30px;
+}
+.speakers_Container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    border-radius: 10px;
+    grid-gap: 50px;
+}
+.speakers_info{
+    border: 1px solid whitesmoke;
+    border-radius: 15px;
+    overflow:hidden; 
+}
+.info_details{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 20px;
+}
