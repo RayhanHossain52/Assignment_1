@@ -66,6 +66,7 @@ button:hover {
     background-color: rgb(4, 153, 153);
     color: white;
 }
+
 .standard_card button:hover {
     background-color: rgb(4, 153, 153);
     color: white;
@@ -87,13 +88,8 @@ img {
         linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.0)),
         url(./assets/banner.jpg);
 
-    background-size: cover;
-    background-position: center;
 
 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 
     display: flex;
     justify-content: center;
@@ -245,20 +241,25 @@ img {
 }
 
 .from_parent p {
-    padding: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .form_container {
     background-color: white;
     box-shadow: 5px 5px 5px 5px rgba(43, 11, 11, 0.192);
-    padding: 50px 300px;
+
     margin: auto;
-    max-width: 700px;
+    width: 100%;
+    max-width: 800px;
+    padding: 80px 200px;
+    box-sizing: border-box;
+
+
 
 
     display: flex;
     flex-direction: column;
+
 
 }
 
@@ -277,14 +278,15 @@ img {
     border: 1px solid black;
     border-radius: 5px;
     width: 100%;
-
     padding: 16px 30px;
+    box-sizing: border-box;
     font-size: 15px;
 }
 
 .form_container button {
-    margin-left: 80px;
-    padding: 20px 6px;
+    display: block;
+    margin: 20px auto 0;
+    padding: 20px 30px;
 }
 
 /* footer */
@@ -313,8 +315,7 @@ img {
 }
 
 .icon a i {
-    width: 20px;
-    height: 30px;
+    font-size: 24px;
 }
 
 .footer_bottom {
