@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.all_container{
+max-width: 1200px;
+margin: auto;
+}
+
+
+/* Navbar Section*/
+nav{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 50px;
+
+}
+
+nav ul{
+    font-family: arimo;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    padding: 13px;
+    
+    
+}
+
+nav ul a{
+    font-family: "Arimo", sans-serif;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.651);
+    
+}
+nav ul a:hover{
+    background-color: rgb(4, 153, 153);
+    color: white;
+    padding: 5px 2px;
+}
+
+nav img{
+    color: black;
+}
+.common_button{
+    color: white;
+    font-weight: bold;
+    background-color: #1d4ed8FF;;
+    border-radius: 10px;
+    padding: 12px 12px;
+    font-size: 16px ;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(4, 153, 153);
+    color: white;
+}
+
+
+/* Hero section */
+img{
+    max-width: 100%;
+}
+
+.hero{
+    background-image: url(./assets/banner.jpg);
+    margin-top: 7px;
+    width: 100%;
+    min-height: 700px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.hero .hero_content{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    gap: 400px;
+    
+}
+.info {
+    color: white;
+    text-align: center;
+    
+}
+
+.info h1{
+    font-weight: bold;
+    font-size: 70px;
+    
+    
+}
+.info p{
+    font-size: 22px;
+    margin-top: 10px;
+    padding: 0px 250px;
+
+}
+
+.hero_content .common_button{
+    font-size: 25px ;
+}
+
